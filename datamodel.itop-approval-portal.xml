@@ -27,8 +27,17 @@
 			}
 			else
 			{
-				// Redirect EVERY user to the portal (todo: adjust depending on the implementation)
-				$sReplyUrl = utils::GetAbsoluteUrlModulesRoot().'itop-portal/index.php/approval/approvals';
+				// Redirect EVERY user to the portal
+			    // TODO : Adjust depending on the implementation! The current code will make an url for the portal instance of the user which is ok
+				// in most case when it has only one or/and its portal ID is no longer "itop-portal" (eg. custom portals). BUT it is NOT ok if
+				// the user is allowed multiple portals and the approval brick is not on the first one!
+				$sPortalId = 'itop-portal';
+				$aAllowedPortals = UserRights::GetAllowedPortals();
+				if(!empty($aAllowedPortals))
+				{
+					$sPortalId = $aAllowedPortals[0]['id'];
+				}
+				$sReplyUrl = utils::GetAbsoluteUrlModulesRoot() . $sPortalId . '/index.php/approval/approvals';
 			}
 		}
 		return $sReplyUrl;
