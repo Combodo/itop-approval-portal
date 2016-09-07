@@ -44,7 +44,10 @@
 				case 'specific':
 					$sToken = $this->GetKey().'-'.$this->Get('current_step').'-'.$sContactClass.'-'.$iContactId.'-'.$sPassCode;
 					$sReplyUrl = utils::GetAbsoluteUrlModulesRoot().'approval-base/approve.php?token='.$sToken;
-					$sReplyUrl .= '&from=object_details';
+					if ($bFromGUI)
+					{
+						$sReplyUrl .= '&from=object_details';
+					}
 					break;
 				case 'portal':
 					$sPortalId = 'itop-portal';
