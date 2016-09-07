@@ -20,8 +20,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Approval:Portal:Title' => 'Requests awaiting your approval',
 	'Approval:Portal:Title+' => 'Please select the requests to approve and use the buttons located at the bottom of the page.',
 	'Approval:Portal:NoItem' => 'There is currently no request expecting your approval',
-	'Approval:Portal:Dlg:Approve' => 'Please confirm that you want to approve <em><span class="approval-count">?</span></em> request(s)',
-	'Approval:Portal:Dlg:Reject' => 'Please confirm that you want to reject <em><span class="approval-count">?</span></em> request(s)',
+	'Approval:Portal:Dlg:Approve' => 'Please confirm that you want to approve <em><span class="approval-count">?</span></em> requests',
+	'Approval:Portal:Dlg:Reject' => 'Please confirm that you want to reject <em><span class="approval-count">?</span></em> requests',
 	'Approval:Portal:Dlg:ApproveOne' => 'Please confirm that you want to approve this request',
 	'Approval:Portal:Dlg:RejectOne' => 'Please confirm that you want to reject this request',
 ));
