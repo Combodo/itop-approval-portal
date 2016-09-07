@@ -15,7 +15,7 @@
 //   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 Dict::Add('FR FR', 'French', 'Français', array(
-	'Approval:Portal:Menu' => 'Vos approbations',
+	'Approval:Portal:Menu' => 'Approbations',
 	'Approval:Portal:Menu+' => 'Demandes pour lesquelles votre approbation est requise',
 	'Approval:Portal:Title' => 'Demandes en attente de votre approbation',
 	'Approval:Portal:Title+' => 'Veuillez sélectionner les demandes à approuver, puis utiliser les boutons au bas de la page.',

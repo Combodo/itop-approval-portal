@@ -15,8 +15,8 @@
 //   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 Dict::Add('EN US', 'English', 'English', array(
-	'Approval:Portal:Menu' => 'Your approvals',
-	'Approval:Portal:Menu+' => 'Requests for which your approval is being requested',
+	'Approval:Portal:Menu' => 'Approvals',
+	'Approval:Portal:Menu+' => 'Requests for which your approval is being expected',
 	'Approval:Portal:Title' => 'Requests awaiting your approval',
 	'Approval:Portal:Title+' => 'Please select the requests to approve and use the buttons located at the bottom of the page.',
 	'Approval:Portal:NoItem' => 'There is currently no request expecting your approval',
