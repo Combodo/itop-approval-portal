@@ -20,8 +20,8 @@ Dict::Add('FR FR', 'French', 'Français', array(
 	'Approval:Portal:Title' => 'Demandes en attente de votre approbation',
 	'Approval:Portal:Title+' => 'Veuillez sélectionner les demandes à approuver, puis utiliser les boutons au bas de la page.',
 	'Approval:Portal:NoItem' => 'Il n\'y a pas de demande en attente de votre approbation',
-	'Approval:Portal:Dlg:Approve' => 'Veuillez confirmer votre approbation pour <em><span id="approval-count">?</span></em> demande(s)',
-	'Approval:Portal:Dlg:Reject' => 'Veuillez confirmer votre refus pour <em><span id="approval-count">?</span></em> demande(s)',
+	'Approval:Portal:Dlg:Approve' => 'Veuillez confirmer votre approbation pour <em><span class="approval-count">?</span></em> demande(s)',
+	'Approval:Portal:Dlg:Reject' => 'Veuillez confirmer votre refus pour <em><span class="approval-count">?</span></em> demande(s)',
 	'Approval:Portal:Dlg:ApproveOne' => 'Veuillez confirmer votre approbation pour cette demande',
 	'Approval:Portal:Dlg:RejectOne' => 'Veuillez confirmer votre refus pour cette demande',
 ));
