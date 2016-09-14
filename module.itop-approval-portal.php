@@ -16,7 +16,7 @@ SetupWebPage::AddModule(
 		//
 		'dependencies' => array(
 			'itop-portal/1.0.0',
-			'approval-base/2.4.0'
+			'approval-base/2.4.1'
 		),
 		'mandatory' => false,
 		'visible' => true,
