@@ -20,7 +20,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
-Dict::Add('IT IT', 'Italian', 'Italiano', array(
+Dict::Add('SK SK', 'Slovak', 'Slovenčina', array(
 	'Approval:Portal:Menu' => 'Approvals~~',
 	'Approval:Portal:Menu+' => 'Requests for which your approval is being expected~~',
 	'Approval:Portal:Title' => 'Requests awaiting your approval~~',

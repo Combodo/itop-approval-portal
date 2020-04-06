@@ -5,7 +5,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'itop-approval-portal/1.0.4',
+	'itop-approval-portal/1.0.5',
 	array(
 		// Identification
 		//

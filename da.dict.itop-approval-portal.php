@@ -20,7 +20,6 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
-
 Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'Approval:Portal:Menu' => 'Approvals~~',
 	'Approval:Portal:Menu+' => 'Requests for which your approval is being expected~~',
