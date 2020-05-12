@@ -28,6 +28,7 @@
 				// Redirect EVERY user to the portal, as soon as they have a valid login
 				$oSearch = new DBObjectSearch('User');
 				$oSearch->AddCondition('contactid', $iContactId);
+				$oSearch->AddCondition('status', 'enabled');
 				$oSet = new DBObjectSet($oSearch);
 				$iCount = $oSet->Count();
 				if ($iCount > 0)
