@@ -29,6 +29,7 @@
 				$oSearch = new DBObjectSearch('User');
 				$oSearch->AddCondition('contactid', $iContactId);
 				$oSearch->AddCondition('status', 'enabled');
+				$oSearch->AllowAllData();
 				$oSet = new DBObjectSet($oSearch);
 				$iCount = $oSet->Count();
 				if ($iCount > 0)
