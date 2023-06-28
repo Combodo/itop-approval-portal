@@ -29,5 +29,5 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Approval:Portal:Dlg:Approve' => 'Prosím o potvrzení shcválení <em><span class="approval-count">?</span></em> požadavků',
 	'Approval:Portal:Dlg:Reject' => 'Prosím o potvrzení zamítnutí <em><span class="approval-count">?</span></em> požadavků',
 	'Approval:Portal:Dlg:ApproveOne' => 'Prosím o potvrzení schválení požadavku',
-	'Approval:Portal:Dlg:RejectOne' => 'Prosím o potvrzení odmítnutí požadavku',
+	'Approval:Portal:Dlg:RejectOne' => 'Prosím o potvrzení zamítnutí požadavku',
 ));
