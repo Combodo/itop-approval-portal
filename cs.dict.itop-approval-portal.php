@@ -21,13 +21,13 @@
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
 Dict::Add('CS CZ', 'Czech', 'Čeština', array(
-	'Approval:Portal:Menu' => 'Approvals~~',
-	'Approval:Portal:Menu+' => 'Requests for which your approval is being expected~~',
-	'Approval:Portal:Title' => 'Requests awaiting your approval~~',
-	'Approval:Portal:Title+' => 'Please select the requests to approve and use the buttons located at the bottom of the page.~~',
-	'Approval:Portal:NoItem' => 'There is currently no request expecting your approval~~',
-	'Approval:Portal:Dlg:Approve' => 'Please confirm that you want to approve <em><span class="approval-count">?</span></em> requests~~',
-	'Approval:Portal:Dlg:Reject' => 'Please confirm that you want to reject <em><span class="approval-count">?</span></em> requests~~',
-	'Approval:Portal:Dlg:ApproveOne' => 'Please confirm that you want to approve this request~~',
-	'Approval:Portal:Dlg:RejectOne' => 'Please confirm that you want to reject this request~~',
+	'Approval:Portal:Menu' => 'Schvalování',
+	'Approval:Portal:Menu+' => 'Požadavky očekávající Vaše schválení',
+	'Approval:Portal:Title' => 'Požadavky čekající na schválení',
+	'Approval:Portal:Title+' => 'Prosím o výber požadavků a potvrzení/zamítnutí tlačítkem níže',
+	'Approval:Portal:NoItem' => 'Aktuálně zde nejsou žádné požadavky ke schválení',
+	'Approval:Portal:Dlg:Approve' => 'Prosím o potvrzení shcválení <em><span class="approval-count">?</span></em> požadavků',
+	'Approval:Portal:Dlg:Reject' => 'Prosím o potvrzení zamítnutí <em><span class="approval-count">?</span></em> požadavků',
+	'Approval:Portal:Dlg:ApproveOne' => 'Prosím o potvrzení schválení požadavku',
+	'Approval:Portal:Dlg:RejectOne' => 'Prosím o potvrzení zamítnutí požadavku',
 ));
