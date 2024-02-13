@@ -24,7 +24,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Approval:Portal:Menu' => 'Schvalování',
 	'Approval:Portal:Menu+' => 'Požadavky čekající na schválení',
 	'Approval:Portal:Title' => 'Požadavky čekající na schválení',
-	'Approval:Portal:Title+' => 'Prosím o výber požadavků a schválení/zamítnutí tlačítkem níže',
+	'Approval:Portal:Title+' => 'Prosím o výběr požadavků a schválení/zamítnutí tlačítkem níže',
 	'Approval:Portal:NoItem' => 'Aktuálně zde nejsou žádné požadavky ke schválení',
 	'Approval:Portal:Dlg:Approve' => 'Prosím o potvrzení schválení <em><span class="approval-count">?</span></em> požadavků',
 	'Approval:Portal:Dlg:Reject' => 'Prosím o potvrzení zamítnutí <em><span class="approval-count">?</span></em> požadavků',
